@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jiang的简历</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jiangqi.css">
+</head>
+<body>
+<div class="jumbotron ceng">
+    <video class="shipin" id="video" autoplay="" loop="" muted="">
+        <source src="D:\Media\VID_20150618_193912.mp4" type="video/webm">
+        Video not supported
+    </video>
+    <div class="container">
+        <h1>
+            My Resume
+        </h1>
+
+        <p>
+            在大学时期学习机电设备维护的我却对前端有着特殊的喜好，在工作之余学习前端的时间已经。。时间了，虽然资历尚浅但却希望拥有一份与之相关的工作，不知道我是否会是你期待已久的那盘菜？
+        </p>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            想了解更多>>
+        </button>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <h2>我的基本信息</h2>
+            <ul class="list-unstyled">
+                <li>
+                    <a class="link" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="毕业学校"
+                       data-content="2008-2011在淮南六中就读高中
+			      <br>2011-2014在淮南职业技术学院就读机电设备维修与管理专业" data-html="true">毕业学校</a>
+                </li>
+                <li>
+                    <a class="link" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="在校荣誉"
+                       data-content="在2012-2013学年获得院二等奖学金</br>" data-html="true">在校荣誉</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h2>我的工作经历</h2>
+            <ul class="list-unstyled">
+                <li>
+                    <a class="link" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="毕业学校"
+                       data-content="在2013年11月-2014年3月的实习工作期间在海尔空调事业部从事截止阀安装工作。" data-html="true">海尔实习工作</a>
+                </li>
+                <li>
+                    <a class="link" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="在校荣誉"
+                       data-content="在2014年5月-2015年X月在猫的天空之城概念书店从事咖啡师工作。" data-html="true">猫空咖啡师工作</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h2>关于我的dream</h2>
+
+            <p>目前的目标
+                <br>三年内的目标
+                <br>最想完成的事情</p>
+        </div>
+        <div class="col-md-3">
+            <h2>请联系我</h2>
+
+            <p>联系电话：
+                <br>电子邮箱</p>
+        </div>
+    </div>
+</div>
+<script src="jquery/1.11.1/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+
+.link, .link:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.shipin {
+    opacity: 0.5;
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.ceng {
+    background: transparent;
+    padding-top: 0;
+    margin-bottom: 200px;
+}

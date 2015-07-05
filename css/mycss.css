@@ -1,0 +1,38 @@
+body{
+	background:#C0C0C0;
+}
+.changkuan{	
+	width: 300px !important;
+	height:300px !important;
+    display:block;
+    margin:0 auto;
+    margin-top: 99px;
+    background:#fff;
+}
+h1{
+
+	text-align:center;
+	background-color:black;
+	color:#FFF;
+	margin-top:0;
+	padding:10px;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index:1;
+}
+p{
+	font-size:30px;
+	font-weight: 700;
+    color:#000;
+	text-align:center;
+}
+.lianjie{
+
+    height: 445px;
+
+}
+.dibu{
+	margin-bottom: 30px;
+}
